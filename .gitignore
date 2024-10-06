@@ -1,0 +1,54 @@
+# .NET Core
+bin/
+obj/
+
+# User-specific files
+.vscode/
+*.user
+*.rsuser
+*.suo
+
+# Auto-generated files
+*.sln.docstates
+
+# Rider specific
+.idea/
+*.sln.iml
+
+# Visual Studio
+*.csproj.user
+*.csproj.ide
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Project lock files
+project.lock.json
+project.fragment.lock.json
+
+# Dotnet tool folders
+**/.dotnet_tool
+
+# Config files
+appsettings.json
+appsettings.*.json
+
+# Publish folder
+publish/
+wwwroot/
+
+# Other generated files
+Generated/
