@@ -95,6 +95,9 @@ namespace GameOfLife
             throw new ArgumentException($"The board {name} is not available.");
         }
 
+        /// <summary>
+        /// Returns a random board
+        /// </summary>
         public static Board GetRandomBoard()
         {
             var random = new Random();
@@ -111,12 +114,18 @@ namespace GameOfLife
             });
         }
 
+        /// <summary>
+        /// Checks if a board with the given name exists
+        /// </summary>
         public static bool DoesBoardExist(string name)
         {
             string upperName = name.ToUpper();
             return upperName == "RANDOM" || premadeBoards.ContainsKey(upperName);
         }
 
+        /// <summary>
+        /// Returns the names of all available premade boards
+        /// </summary>
         public static string[] GetAvailableBoards()
         {
             return premadeBoards.Keys.ToArray();
