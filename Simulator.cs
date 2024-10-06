@@ -1,7 +1,7 @@
 namespace GameOfLife
 {
     /// <summary>
-    /// The simulator class is responsible for mainting state
+    /// The simulator class is responsible for maintaining state
     /// and driving the Game of Life simulation
     /// </summary>
     public class Simulator
